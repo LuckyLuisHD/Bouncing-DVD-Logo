@@ -106,7 +106,6 @@ function movingBox() {
 
       if (oldY <= 0 || oldY >= maxY) {
         directionY = directionY * -1;
-        changeCubeColor(animationBox,  cornerDetection);
       } 
 
       newY = newY + 2 * directionY;
